@@ -100,4 +100,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PAGER=less
 export LESS=-SRXF
+
+
 POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
